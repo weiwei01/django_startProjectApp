@@ -1,0 +1,7 @@
+<h1>List of Students</h1>
+<ol>
+	{% for student in allstudents %}
+	<li>{{ student.firstname}} {{student.lastname}}: {{student.email}} </li>
+	{% endfor %}
+</ol>
+

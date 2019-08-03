@@ -21,7 +21,8 @@ urlpatterns = [
     path('polls/', include('polls.urls')),
     path('chart/', include('chart.urls')),
     path('url_chart/', include('url_chart.urls')),
-    path('url_para/', include('url_para.urls')),
+    path('app_url_para/', include('app_url_para.urls')),
+    path('app_sendtotemplate/', include('app_sendtotemplate.urls')),
 
     path('admin/', admin.site.urls),
 ]

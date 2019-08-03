@@ -18,10 +18,10 @@ Including another URLconf
 
 from django.urls import path
 
-from url_para import views
+from app_sendtotemplate import views
 
 urlpatterns = [
-    path('<str:name>/', views.account, name='account'),
+    path('', views.send, name='send'),
 #    url(r'^chart_data/$', views.graph_data, name='graph_data'),
 
 ]
