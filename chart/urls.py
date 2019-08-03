@@ -18,8 +18,8 @@ Including another URLconf
 
 from django.urls import path
 
-from polls import views
+from chart import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.show_graph, name='show_graph'),
 ]
